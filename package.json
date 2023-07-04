@@ -1,6 +1,5 @@
 {
-    "homepage": "http://youcefhmd.github.io/TIC-TAC-TOE-GAME",
-    "name": "tic-tac-toe-game",
+    "name": "bitcoin-sample-game",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
