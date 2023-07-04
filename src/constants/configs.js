@@ -1,5 +1,7 @@
 const isProduction = process.env.REACT_APP_ENV === 'production';
 
+console.log('LOGGER--- isProduction ', isProduction)
+
 const TC_LAYER2 = {
     RPC: isProduction ? 'https://node.l2.trustless.computer/' : 'https://l2-node.regtest.trustless.computer/',
     CHAIN: isProduction ? 42213 : 42070,
