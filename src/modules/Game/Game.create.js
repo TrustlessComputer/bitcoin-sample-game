@@ -92,7 +92,7 @@ const CreateGame = ({ show, onSuccess, onCancel }) => {
                                 },
                             }}
                         >
-                            {gameID && loading ? 'Waiting user' : 'Create the game'}
+                            {gameID && loading ? 'Waiting for user' : 'Create the game'}
                         </motion.h2>
                         {!!gameID && (
                             <motion.h3
