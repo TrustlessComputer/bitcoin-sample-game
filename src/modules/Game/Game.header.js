@@ -22,10 +22,10 @@ const GameHeader = () => {
             </div>
             {!!isNeedTopupTC && (
                 <div className="warning-wrapper">
-                    <p>Please deposit as least {formatter.formatAmount({
+                    <p>Please deposit at least {formatter.formatAmount({
                         originalAmount: MIN_AMOUNT,
                         decimals: 18
-                    })} TC for play the game.</p>
+                    })} TC to play the game.</p>
                 </div>
             )}
         </div>
